@@ -8,11 +8,27 @@
     <title>Hero Header - Storm in the clouds</title>
 
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+
     <script src="./js/app.js" defer></script>
+
+    <!-- Font awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+          integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
         <div class="header__overlay"></div>
+        <nav>
+            <div class="logo"><i class="fa-solid fa-cloud-bolt"></i></div>
+            <ul>
+                <li><a href="#get-started">Get started</a></li>
+                <li><a href="#new-topics">New Topics</a></li>
+                <li><a href="#read-more">Read More</a></li>
+                <li><a href="#about-us">About Us</a></li>
+            </ul>
+        </nav>
         <div class="header__content">
             <h1>Storm in the clouds</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -25,7 +41,17 @@
             <button type="button">stay safe</button>
         </div>
     </header>
-    <section></section>
-    <section></section>
+    <section id="get-started">
+        <h1 class="section__headline">Get started</h1>
+    </section>
+    <section id="new-topics">
+        <h1 class="section__headline">New Topics</h1>
+    </section>
+    <section id="read-more">
+        <h1 class="section__headline">Read More</h1>
+    </section>
+    <section id="about-us">
+        <h1 class="section__headline">About Us</h1>
+    </section>
 </body>
 </html>

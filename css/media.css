@@ -1,0 +1,48 @@
+@media (max-width: 1249px) {
+    .header__content {
+        max-width: 799px;
+    }
+
+    .header__content h1 {
+        font-size: 4.5rem;
+    }
+
+    .header__content p, .header__content button, header nav ul li a {
+        font-size: 1.25rem;
+    }
+
+    .header__content button {
+        width: 15rem
+    }
+}
+
+@media (max-width: 849px) {
+    header nav .logo {
+        font-size: 1.5rem;
+    }
+
+    .header__content {
+        max-width: 449px;
+    }
+
+    .header__content h1 {
+        font-size: 3rem;
+    }
+
+    .header__content p, .header__content button, header nav ul li a {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 596px) {
+    header nav {
+        justify-content: space-between;
+        gap: 0;
+        padding: 1rem;
+    }
+
+    .header__content p {
+        font-size: .88rem;
+        padding: 1rem;
+    }
+}

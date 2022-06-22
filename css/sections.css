@@ -1,0 +1,26 @@
+section {
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+section .section__headline {
+    font-size: 5rem;
+}
+
+section:nth-of-type(1), section:nth-of-type(4) {
+    color: var(--secondary-font-color);
+    background-color: var(--primary-color);
+}
+
+section:nth-of-type(2) {
+    color: var(--primary-font-color);
+    background-color: var(--secondary-font-color);
+}
+
+section:nth-of-type(3) {
+    color: var(--primary-font-color);
+    background: var(--secondary-font-color) url("../assets/images/bg_01.jpg") center center/cover no-repeat fixed;
+}
